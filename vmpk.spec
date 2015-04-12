@@ -1,12 +1,14 @@
 Summary:	Virtual MIDI piano keyboard
 Name:		vmpk
-Version:	0.5.0
-Release:	2
+Version:	0.5.1
+Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://downloads.sourceforge.net/vmpk/%{name}-%{version}.tar.bz2
-# Source0-md5:	2f0d31454a6dd1ad12ac9d8db1358200
+# Source0-md5:	07e376936c38c7c244374ff9ddca6a72
 BuildRequires:	QtGui-devel
+BuildRequires:	QtNetwork-devel
+BuildRequires:	QtSvg-devel
 BuildRequires:	alsa-lib-devel
 BuildRequires:	cmake
 BuildRequires:	libxslt-progs
